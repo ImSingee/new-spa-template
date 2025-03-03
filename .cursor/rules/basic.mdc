@@ -6,3 +6,4 @@ alwaysApply: false
 1. Always use pnpm for project management. If you need to add a new dependency, consider adding `-D` flag first.
 2. Generate typescript code only, and avoid using any if possible
 3. Note: the project is configured with React 19 and tailwind 4. Only generate codes match these versions and never change these versions.
+4. If you need to add shadcn components, use `pnpm shadcn:add xxx` instead of `npx shadcn add xxx`
